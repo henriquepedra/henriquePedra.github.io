@@ -1,0 +1,56 @@
+body {
+    background-color: beige;
+    padding: 1%;
+}
+
+.nome {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#sobreMim {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#foto {
+    float: left;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightgreen;
+}
+
+.foto-desc {
+    height: 300px;
+    position: relative;
+}
+
+.description {
+    position: relative;
+    top: 150px;
+}
+
+.skill1 {
+    font-size: 18px;
+}
+
+.skill2 {
+    font-size: 22px;
+}
+
+.skill3 {
+    font-size: 16px;
+}
+
+.skill4 {
+    font-size: 20px;
+}
+
+.skill5 {
+    font-size: 14px;
+}
+
+ul li:nth-child(odd) {
+    background-color: aquamarine;
+}
