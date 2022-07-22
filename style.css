@@ -1,56 +1,59 @@
 body {
-    background-color: beige;
-    padding: 1%;
-}
-
-.nome {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
-#sobreMim {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-}
-
-#foto {
-    float: left;
-    height: 300px;
-    margin: 10px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+  }
+  
+  /* HEADER */
+  
+  .header {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(0, 120, 100);
+    background-image: url('./img/minha_foto.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 100px;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .social-media {
+    display: flex;
+    border: 1px solid black;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 4rem;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+  }
+  
+  a:hover {
+    background-color: white;
+  }
+  
+  a:active {
     background-color: lightgreen;
-}
-
-.foto-desc {
-    height: 300px;
-    position: relative;
-}
-
-.description {
-    position: relative;
-    top: 150px;
-}
-
-.skill1 {
-    font-size: 18px;
-}
-
-.skill2 {
-    font-size: 22px;
-}
-
-.skill3 {
-    font-size: 16px;
-}
-
-.skill4 {
-    font-size: 20px;
-}
-
-.skill5 {
-    font-size: 14px;
-}
-
-ul li:nth-child(odd) {
-    background-color: aquamarine;
-}
+  }
